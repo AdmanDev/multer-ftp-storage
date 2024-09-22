@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "name": "Exemple",
+            "request": "launch",
+            "cwd": "${workspaceFolder}\\example",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "start"
+            ],
+            "skipFiles": [
+                "<node_internals>/**",
+                "<node_modules>/**"
+            ]
+        }
+    ]
+}

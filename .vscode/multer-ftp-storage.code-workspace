@@ -1,0 +1,30 @@
+{
+    "folders": [
+        {
+            "name": "Root",
+            "path": "../"
+        },
+        {
+            "name": "MulterFtpStorage",
+            "path": "../packages/multer-ftp-storage"
+        },
+        {
+            "name": "Exemple",
+            "path": "../example"
+        }
+    ],
+    "settings": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "explicit"
+        },
+        "eslint.validate": [
+            "typescript",
+            "javascript"
+        ],
+        "eslint.workingDirectories": [
+            "../packages/multer-ftp-storage",
+            "../example"
+        ],
+        "editor.formatOnPaste": false,
+    }
+}

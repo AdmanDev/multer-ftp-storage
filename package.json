@@ -1,0 +1,12 @@
+{
+    "name": "@admandev/multer-ftp-storage",
+    "license": "MIT",
+    "author": "Admandev",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/*",
+            "example/*"
+        ]
+    }
+}
